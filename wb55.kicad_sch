@@ -4338,16 +4338,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 111.76) (xy 64.77 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57b78abe-6536-48b1-a19e-be84ecd33a72")
-	)
-	(wire
-		(pts
 			(xy 215.9 49.53) (xy 215.9 50.8)
 		)
 		(stroke
@@ -4988,6 +4978,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 111.76) (xy 71.12 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb22ccb-feae-4c9c-b820-7acf1e28fd99")
+	)
+	(wire
+		(pts
 			(xy 163.83 86.36) (xy 175.26 86.36)
 		)
 		(stroke
@@ -5196,16 +5196,27 @@
 		)
 		(uuid "fffcd332-d224-42dc-ab62-8405bc989230")
 	)
-	(text "0.245 @ aisler 4layer HD boards\n"
+	(text "0.245 @ aisler 4layer HD boards\n0.293 @ JLC 7678 boards (0.2 trace to copper)\n "
 		(exclude_from_sim no)
-		(at 127 114.554 0)
+		(at 83.058 118.618 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b4ed9a9d-4258-4f85-845f-e1938c30e263")
+	)
+	(label "ant_path"
+		(at 86.36 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1aef8f51-14ba-4c4e-87f5-d7e42d01fe0e")
 	)
 	(label "swclk"
 		(at 222.25 101.6 0)
@@ -5218,8 +5229,8 @@
 		)
 		(uuid "2bad4387-2c22-47b8-ab7d-15e478030fbf")
 	)
-	(label "ANT"
-		(at 66.04 111.76 0)
+	(label "pi_to_ant"
+		(at 60.96 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5953,6 +5964,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 170.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41a8ca39-e0be-4e46-9934-f338ee212485")
 		)
@@ -6155,6 +6175,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f49250d-eb2e-42af-a707-20e6d581bc6e")
 		)
@@ -6217,6 +6246,15 @@
 		)
 		(property "Description" ""
 			(at 219.71 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 220.98 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6549,6 +6587,15 @@
 		)
 		(property "Description" ""
 			(at 142.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 143.51 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,6 +6997,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17168"
+			(at 207.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bdde731b-b2ad-42c0-b0fd-5d6594a64cb1")
 		)
@@ -7262,6 +7318,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1547"
+			(at 134.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cafaf3cf-0e48-4c49-8f36-bb89bd9de38a")
 		)
@@ -7324,6 +7389,15 @@
 		)
 		(property "Description" ""
 			(at 177.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 179.07 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7399,6 +7473,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1986260"
+			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "acc8204a-86ca-4ff8-a922-09f95a377f05")
 		)
@@ -7464,6 +7547,15 @@
 		)
 		(property "Description" ""
 			(at 157.48 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 158.75 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7672,6 +7764,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 170.18 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d37602a-f95d-429b-9c90-665dc51a4c7f")
 		)
@@ -7732,6 +7833,15 @@
 		)
 		(property "Description" ""
 			(at 215.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77107"
+			(at 218.186 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7941,6 +8051,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1546"
+			(at 110.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1269e6f9-3709-4203-a991-9f47fb3ca35b")
 		)
@@ -8004,6 +8123,15 @@
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 256KB RAM, 64 MHz, 1.71-3.6V, 49 GPIO, VFQFPN68"
 			(at 195.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C401505"
+			(at 202.8541 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8235,7 +8363,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a027590b-8ff4-4a94-94ed-96b78b90a983")
 		(property "Reference" "L3"
 			(at 83.82 118.11 0)
@@ -8409,6 +8537,15 @@
 		)
 		(property "Description" ""
 			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 119.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8616,6 +8753,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 179.07 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2580db67-4c37-470d-839a-d01f8786bb85")
 		)
@@ -8750,6 +8896,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 152.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75dec35a-8c05-4ae7-92e5-ceee87227b23")
 		)
@@ -8817,6 +8972,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2651048"
+			(at 137.795 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc2a8ab3-c21d-4e76-8811-291872f184a9")
 		)
@@ -8852,7 +9016,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bdf39bb7-96a5-4645-9c1b-eefc380404ff")
 		(property "Reference" "L1"
 			(at 74.93 118.11 0)
@@ -8892,6 +9056,15 @@
 		)
 		(property "Description" ""
 			(at 71.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19666"
+			(at 74.93 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8967,6 +9140,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25158"
+			(at 213.36 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d97474e-7273-4ffe-b30b-877b7ca8f198")
 		)
@@ -9029,6 +9211,15 @@
 		)
 		(property "Description" ""
 			(at 116.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 118.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9127,7 +9318,7 @@
 		(dnp no)
 		(uuid "d2b8a5ef-36dd-4a9f-9e2e-865ac1914ab2")
 		(property "Reference" "L2"
-			(at 72.39 114.3 90)
+			(at 76.2 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9162,6 +9353,15 @@
 		)
 		(property "Description" ""
 			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19666"
+			(at 72.39 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9268,7 +9468,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 204.978 28.194 0)
+			(at 207.01 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9295,6 +9495,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 209.55 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19666"
+			(at 210.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pn" "C19666 "
 			(at 209.55 27.94 0)
 			(effects
 				(font
@@ -9382,6 +9600,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1547"
+			(at 134.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8d780bb-5fd3-4c16-96da-50a35f671695")
 		)
@@ -9399,43 +9626,44 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 64.77 106.68 0)
+		(at 53.34 106.68 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea96d8e8-3e34-437d-ad67-8af400b86562")
 		(property "Reference" "AE3"
-			(at 62.23 106.0449 0)
+			(at 55.88 106.0449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "Antenna"
-			(at 62.23 108.5849 0)
+			(at 55.88 108.5849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Left"
-			(at 64.77 106.68 0)
+			(at 53.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 106.68 0)
+			(at 53.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9444,7 +9672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 106.68 0)
+			(at 53.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9518,6 +9746,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 161.29 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5f98ed4-4866-4d13-bb34-29cdf1231c4f")
 		)
@@ -9579,6 +9816,15 @@
 		)
 		(property "Description" ""
 			(at 220.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25767"
+			(at 220.98 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
