@@ -1,6 +1,6 @@
 # linky2ble
 
-stm32wb55 based linky telinfo to ble bridge
+stm32wb55 based linky teleinfo to ble bridge - based on https://fumeebleue.fr/ & https://hallard.me/pitinfov12/ designs
 
 ## preview:
 
