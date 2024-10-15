@@ -4,12 +4,12 @@ stm32wb55 based linky teleinfo to ble bridge - based on https://fumeebleue.fr/ &
 
 ## Preview:
 
-![board picture](3D/linky_wb-3D_top30deg.png?raw=true "30deg")
-![board picture](3D/linky_wb-3D_top.png?raw=true "top")
+![board picture](export/linky_wb-3D_top30deg.png?raw=true "30deg")
+![board picture](export/linky_wb-3D_top.png?raw=true "top")
 
 ## Schematics:
 
-![schematics](Fabrication/PDFs/linky_wb-schematic.pdf?raw=true "here")
+![schematics](export/linky_wb-schematic.pdf "here")
 
 
 ## Aisler project:
